@@ -1,6 +1,6 @@
 {
   "name": "frontend",
-  "homepage": "https://welfredk.github.io/historical-data-analysis",
+  "homepage": "https://welfredk.github.io/datacomparisonhub",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
