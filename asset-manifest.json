@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/historical-data-analysis/static/css/main.cb925ccc.css",
-    "main.js": "/historical-data-analysis/static/js/main.9e9338f0.js",
-    "index.html": "/historical-data-analysis/index.html",
-    "main.cb925ccc.css.map": "/historical-data-analysis/static/css/main.cb925ccc.css.map",
-    "main.9e9338f0.js.map": "/historical-data-analysis/static/js/main.9e9338f0.js.map"
+    "main.css": "/datacomparisonhub/static/css/main.cb925ccc.css",
+    "main.js": "/datacomparisonhub/static/js/main.9e9338f0.js",
+    "index.html": "/datacomparisonhub/index.html",
+    "main.cb925ccc.css.map": "/datacomparisonhub/static/css/main.cb925ccc.css.map",
+    "main.9e9338f0.js.map": "/datacomparisonhub/static/js/main.9e9338f0.js.map"
   },
   "entrypoints": [
     "static/css/main.cb925ccc.css",
