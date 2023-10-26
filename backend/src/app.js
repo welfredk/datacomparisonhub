@@ -10,7 +10,7 @@ const { availableCountry } = require('./models/availableCountry.model');
 
 
 app.use(cors({
-    origin: ['http://localhost:3000'],
+    origin: ['http://localhost:3000', 'https://welfredk.github.io'],
     
 }));
 app.use(morgan('combined'));
