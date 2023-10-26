@@ -20,8 +20,8 @@ const App = () => {
 
   useEffect(() => {
     Promise.all([
-      fetch("http://localhost:8000/getInitialData").then((response) => response.json()),
-      fetch("http://localhost:8000/availableCountry").then((response) => response.json())
+      fetch("https://data-comparison-server.onrender.com/getInitialData").then((response) => response.json()),
+      fetch("https://data-comparison-server.onrender.com/availableCountry").then((response) => response.json())
     ])
       .then(([data, availableCountryData]) => {
         const filteredData = Object.keys(data)
@@ -54,7 +54,7 @@ const App = () => {
       startYear: Year
     };
     setIsLoading(true)
-    fetch('http://localhost:8000/getNewData', {
+    fetch('https://data-comparison-server.onrender.com/getNewData', {
       method: 'POST',
       body: JSON.stringify(requestData),
       headers: {

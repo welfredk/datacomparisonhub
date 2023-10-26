@@ -1,6 +1,6 @@
 const te = require('tradingeconomics');
 
-const apiKey = '422315f8222d41f:9j13ewr8vwvhe1g';
+const apiKey = process.env.API_KEY;
 te.login(apiKey);
 
 const monthNames = [
